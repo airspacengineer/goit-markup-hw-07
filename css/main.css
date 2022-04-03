@@ -358,6 +358,10 @@ h2 {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team__card-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team__card-description {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -404,10 +408,6 @@ h2 {
 
 .team-link:hover, .team-link:focus {
   background-color: var(--blue);
-}
-
-.team-icons-item:not(:last-child) {
-  margin-right: 10px;
 }
 
 .team-link:not(:last-child) {
@@ -727,6 +727,10 @@ h2 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+.checkbox-text {
+  margin-left: 8px;
 }
 
 .checkbox-link {
