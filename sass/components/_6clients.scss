@@ -23,6 +23,12 @@
   justify-content: center;
   align-items: center;
 }
+.icon-clients {
+  fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .clients__link {
   display: flex;
   justify-content: center;
@@ -37,18 +43,10 @@
 
   &:hover,
   &:focus {
-    border: 1px solid var(--blue);
-    color: var(--blue);
-  }
-}
-.icon-clients {
-  fill: #afb1b8;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border-color: var(--blue);
 
-  &:hover,
-  &:focus {
-    fill: var(--blue);
+    .icon-clients {
+      fill: var(--blue);
+    }
   }
 }

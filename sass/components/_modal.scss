@@ -85,10 +85,9 @@
   position: relative;
   margin-bottom: 30px;
 }
-.form-label.checkbox {
+.checkbox {
   display: flex;
-  padding-left: 36px;
-  padding-right: 12px;
+  align-items: center;
   margin-bottom: 0;
   font-size: 14px;
   line-height: 1.71;
@@ -106,10 +105,6 @@
 }
 .icon-check {
   display: block;
-  position: absolute;
-  top: 50%;
-  left: 8px;
-  transform: translateY(-50%);
   width: 16px;
   height: 15px;
 }
