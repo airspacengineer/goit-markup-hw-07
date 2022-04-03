@@ -1,0 +1,24 @@
+body {
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    letter-spacing: 0.03em;
+    
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul,
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    display: block;
+  }
